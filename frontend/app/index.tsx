@@ -8,7 +8,14 @@ export default function Index() {
       <Link href="/about" style={styles.button}>
         Go to About screen
       </Link>
+      <Link href="/diary" style={styles.button}>
+      Go to writing
+      </Link>
+      <Link href="/aisuggest" style={styles.button}>
+      Go to Suggestion
+      </Link>
     </View>
+
   );
 }
 
